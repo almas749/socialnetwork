@@ -1,0 +1,16 @@
+.app-nav-friends__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-nav-friends__item-img {
+    width: 80px;
+}
+
+.app-nav-friends__item-img img{
+    width: 100%;
+    border-radius: 50px;
+    height: 80px;
+    object-fit: cover;
+}

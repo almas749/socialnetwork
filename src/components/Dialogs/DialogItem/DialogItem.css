@@ -1,0 +1,30 @@
+.dialog-item {
+    padding: 5px 0;
+}
+
+.dialog-item-link {
+    background-color: #d9fcb2; 
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #291353;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dialog-item-link--active {
+    color: #5a25d6;
+}
+
+.dialog-item-img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.dialog-item-img img{
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    object-fit: cover;
+}

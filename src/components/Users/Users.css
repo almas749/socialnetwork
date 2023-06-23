@@ -1,0 +1,18 @@
+.users-wrapper {
+    list-style-type: none;
+}
+
+.users-page-changer {
+    margin-top: 10px;
+}
+
+.page-num {
+    color: brown;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.page-num--selected {
+    font-weight: 700;
+    background-color: rgb(185, 223, 223);
+}

@@ -1,0 +1,18 @@
+.app-header {
+    grid-area: app-header;
+    border-radius: 10px;
+    background-color: rgb(177, 252, 227);
+    padding: 10px;
+}
+
+.app-header img {
+    width: 30px;
+}
+
+.login-block {
+    float: right;
+}
+
+.login-block a {
+    color: rgb(10, 65, 22);
+}

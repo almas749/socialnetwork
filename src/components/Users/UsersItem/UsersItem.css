@@ -1,0 +1,44 @@
+.user-item {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #d9fcb2;  
+    align-items:center;
+}
+
+.user-item-left {
+    display: flex;
+    flex-direction: column;
+}
+.user-item-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.user-item-right {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.user-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-item-info__status {
+    font-style: italic;
+}
+
+.user-item-location {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

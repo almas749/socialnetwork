@@ -1,0 +1,32 @@
+.dialogs {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.dialogs-items {
+    list-style-type: none;
+}
+
+.dialogs-messages {
+    list-style-type: none;
+}
+
+.dialogs-send-text {
+    width: 80%;
+    height: 80px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.dialogs-send-area {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dialogs-send-btn {
+    width: 20%;
+}
+

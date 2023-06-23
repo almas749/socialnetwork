@@ -1,0 +1,40 @@
+.dialog-message {
+    color: #291353;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+.dialog-message-receive {
+    justify-content: left;
+    flex-direction: row;
+}
+
+.dialog-message-receive .dialog-message-item_img {
+    margin-right: 10px;
+    margin-left: unset;
+}
+
+.dialog-message-item_img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.dialog-message-item_img img{
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.dialog-message-text {
+    max-width: 220px;
+    background-color: rgb(248, 248, 168);
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
