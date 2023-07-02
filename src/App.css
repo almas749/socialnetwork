@@ -34,3 +34,7 @@ html {
 .error-message {
     color: red;
 }
+
+textarea {
+    resize: none;
+}
